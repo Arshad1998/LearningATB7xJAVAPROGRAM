@@ -17,7 +17,8 @@ public class Lab025 {
         String s3 = "Amit";
         int x = 99;
         int y = 100;
-// + will act as a additional operator but once string come in + will concatenate
+//    + will act as a additional operator but once string come in + will concatenate
+//    LbLeft to Right priority
         System.out.println(x+y+s3);
         System.out.println(s3+x+y);
         System.out.println(x+s3+y);
