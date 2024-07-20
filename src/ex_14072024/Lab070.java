@@ -4,8 +4,8 @@ public class Lab070 {
     public static void main(String[] args) {
         String s1 = new String("Mohamed");
         String s2 = new String("Mohamed");
-        //  2, Heap area
+        //  Here using new operator we created 2 reference with same value  2 Heap area will be  created with same value
         String s3  = s1;
-        //  2, heap  s3 -> s1 -> Pramod
+        //  still 2 heap area only will  be there but we declared  s3 which will just point -> s1 -> Mohamed
     }
 }
