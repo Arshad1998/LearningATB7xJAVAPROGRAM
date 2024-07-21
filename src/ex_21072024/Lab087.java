@@ -30,11 +30,11 @@ public class Lab087 {
 
         Scanner value = new Scanner(System.in);
         System.out.println("\nAre you good with th result\n Yes or No");
-        String a = value.next(); //there is no nextchar() bcoz char is considered as int
+        String a = value.next(); //there is no nextchar() and we have .next()CharAt()0
 
         //if (a=="Yes") //n Java, the == operator is used to compare two primitive values or the references of two objects.
             // When used with strings,it checks whether two references point to the exact same object. This means that
-            // if you have two different String objects with the same value, == will return fals
+            // if you have two different String objects with the same value, == will return e
 
         if (a.equals("Yes"))  //.equals will compare value
         {
