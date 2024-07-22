@@ -2,7 +2,7 @@ package ex_21072024;
 
 import java.util.Scanner;
 
-public class Lab108 {
+public class Task_LeapYear {
     public static void main(String[] args) {
 //      Assignment for 20th July - Leap Year Program - 2024
 //      Leap Year Checker:

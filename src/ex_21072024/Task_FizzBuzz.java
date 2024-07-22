@@ -2,7 +2,7 @@ package ex_21072024;
 
 import java.util.Scanner;
 
-public class Lab107 {
+public class Task_FizzBuzz {
     public static void main(String[] args) {
 //        Assignment for 20th July - FizzBuzz Test
 //        ✅ FizzBuzz Test:

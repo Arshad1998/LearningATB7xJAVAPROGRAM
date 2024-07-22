@@ -8,7 +8,9 @@ public class Lab096 {
                 System.out.println("Val - 98");
 //            case 98:
 //                System.out.println("Val - 98");
-//                2 case with same value is not acceptable
         }
+
+//                2 case with same value is not acceptable
+
     }
 }

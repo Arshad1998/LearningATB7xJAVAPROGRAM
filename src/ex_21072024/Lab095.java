@@ -3,11 +3,13 @@ package ex_21072024;
 public class Lab095 {
     public static void main(String[] args) {
 
+//        Java switch expressions must be of byte, short, int, long(with its Wrapper type), enums and String.
+
         int a = 10;
         switch (a) {
             case 10:
-            System.out.println("switch can take integer");
-            break;
+                System.out.println("switch can take integer");
+                break;
         }
 
         char ch = 'A'; // 65
@@ -22,9 +24,11 @@ public class Lab095 {
 //        } // Switch cannot take boolean
 
         long a11 = 30l;
-        switch ((int) a11)  //Switch cannot take long but covered to int it can take
-        {
-        }
+        switch ((int) a11) {
+            case 30:
+                System.out.println("long(with its Wrapper type) - Switch cannot take long but wrapped in int it can take");
+                break;
 
+        }
     }
 }

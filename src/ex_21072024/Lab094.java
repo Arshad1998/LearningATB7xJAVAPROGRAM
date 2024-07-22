@@ -10,7 +10,7 @@ public class Lab094 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a char, I will tell you, If it is a vowel or not!");
         char user_input = sc.next().charAt(0);
-        System.out.println(user_input);
+//        System.out.println(user_input);
 
         switch (user_input) {
             case 'a':
@@ -33,7 +33,11 @@ public class Lab094 {
 
         }
 
-        switch (user_input){
+        System.out.println("Enter a char, I will tell you, If it is a vowel or not!");
+        char user_input1 = sc.next().charAt(0);
+//
+//        Using the switch enhancement introduced in JD 13 program can be written as below
+        switch (user_input1){
             case 'a','i','o','u','e':
                 System.out.println("Vowel");
                 break;
@@ -41,5 +45,15 @@ public class Lab094 {
                 System.out.println("Not a Vowel, It it Consonant");
 
         }
+
+//        We can further reduce the code like below using ->
+
+        switch (user_input1){
+            case 'a','i','o','u','e'-> System.out.println("Vowel");
+            default -> System.out.println("Not a Vowel, It it Consonant");
+
+        }
+
+        sc.close();
     }
 }

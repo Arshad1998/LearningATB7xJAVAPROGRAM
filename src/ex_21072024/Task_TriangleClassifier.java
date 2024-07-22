@@ -2,7 +2,7 @@ package ex_21072024;
 
 import java.util.Scanner;
 
-public class Lab106 {
+public class Task_TriangleClassifier {
     public static void main(String[] args) {
 //        Assignment for 20th July - Triangle Classifier
 //        ✅ Triangle Classifier:
