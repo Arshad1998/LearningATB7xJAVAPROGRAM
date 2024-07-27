@@ -1,10 +1,8 @@
 package ex_21072024;
 
-import com.sun.tools.javac.Main;
-
 import java.util.Scanner;
 
-public class Task_PatternPrinting {
+public class Task_RightTriangleStarPattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value");
