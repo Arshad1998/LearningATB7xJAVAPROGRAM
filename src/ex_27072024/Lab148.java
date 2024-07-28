@@ -19,7 +19,7 @@ public class Lab148 {
 
 
         //  2D
-        int[][] array_2d = new int[3][3];
+        int[][] array_2d = new int[4][4];
         //By default elements will be zero
         // |0|0|0|
         // |0|0|0|
@@ -35,7 +35,7 @@ public class Lab148 {
 
         array_2d[1][2] = 65;
 
-        System.out.println(array_2d.length);
+        System.out.println(array_2d.length); // for 2d array - length func will five size of row
 
     }
 }
