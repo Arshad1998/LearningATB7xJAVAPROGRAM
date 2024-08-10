@@ -1,4 +1,4 @@
-package ex_20072024;
+package july.ex_20072024;
 
 import java.util.Scanner;
 // import jav.lang is always available in program so no need to add it ny ourselves
