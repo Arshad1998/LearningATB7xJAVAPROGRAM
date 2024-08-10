@@ -1,4 +1,4 @@
-package ex_27072024;
+package july.ex_27072024;
 
 import java.util.Scanner;
 
@@ -19,19 +19,18 @@ public class Lab146 {
             System.out.println("Subject " + (i + 1) + " Marks : " + marks[i]);
         }
 
-
 //        float avg = (marks[0]+ marks[1]+ marks[2]+ marks[3]+ marks[4])/5;
 //        System.out.println("Avg is -> "+avg);
 
-        float avg = 1.0f;
-        float total =0;
+
+        float total =0.0f;
         for (int i=0; i< marks.length; i++)
         {
             total = total+marks[i];
 
         }
-        avg = total/marks.length;
-        System.out.println("Your average total is " +avg);
+        float avg = total/marks.length;
+        System.out.println("Your average is " +avg);
 
 //      Printing the marks using
 //        int j = 0;
