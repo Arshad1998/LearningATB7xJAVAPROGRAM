@@ -1,4 +1,4 @@
-package ex_14072024;
+package july.ex_14072024;
 import java.lang.Math; //Java has this by default
 
 public class Lab081 {
