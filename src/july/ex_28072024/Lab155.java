@@ -17,7 +17,7 @@ public class Lab155 {
         //How these are stored in Java
         // Class is just a Blueprint and not a real entity hence it won't take any memory in JAVA
         // When an object created ClassName classRef = new ClassName();
-        // (ClassName)Class Loader will load the ClassName
+        // (ClassName)Class Loader will load the ClassName and assign default values to the data members
         // new ClassName will create object in Heap area which take a space in memory
         // classRef will point the created entity
 
