@@ -26,6 +26,10 @@ public class Lab171 {
 //    Single inheritance is used 90%
 //    Multiple inheritance is used 10%
 
+
+
+
+
     }
 
 }
