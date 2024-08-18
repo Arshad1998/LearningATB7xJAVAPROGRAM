@@ -11,6 +11,7 @@ public class RealTimeInheritance {
     }
 }
 
+
 class TestCase1 extends BaseClass{
     // TestCase is A Type of BaseCalss - Single Inheritance
     TestCase1(){
