@@ -12,7 +12,7 @@ public interface Engine {
     since all methods are by default abstract (unless they have default implementations).
 */
 
-    // No need to explicitly give abstract it is by default abstract
+    // No need to explicitly give abstract it is by default abstract and public
     void startEngine();
     void stopEngine();
 }
