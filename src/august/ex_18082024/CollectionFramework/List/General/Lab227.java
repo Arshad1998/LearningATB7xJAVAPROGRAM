@@ -1,4 +1,4 @@
-package august.ex_18082024.CollectionFramework;
+package august.ex_18082024.CollectionFramework.List.General;
 
 public class Lab227 {
     public static void main(String[] args) {
