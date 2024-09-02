@@ -31,8 +31,6 @@ class Student<T1, T2> {
 
     public T2 getmarks() {
         return marks;
-
-
     }
 }
 
